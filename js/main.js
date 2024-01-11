@@ -5,3 +5,8 @@ console.log(UserFirstName);
 // Chiedo il Cognome
 const UserLastName = prompt("Qual è il tuo Cognome?");
 console.log(UserLastName);
+
+// Chiedo il Colore Preferito
+const UserFavColor = prompt("Qual è il tuo colore preferito?");
+console.log(UserFavColor);
+
