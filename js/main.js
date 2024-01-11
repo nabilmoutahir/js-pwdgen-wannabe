@@ -14,3 +14,6 @@ console.log(UserFavColor);
 const NewPassword = UserFirstName + UserLastName + UserFavColor + 23;
 console.log(NewPassword)
 
+// Scrivo la password sulla pagina
+const PwdResult = document.getElementById("pwd_reveal");
+PwdResult.innerHTML= "La tua password è" + " " + NewPassword;
