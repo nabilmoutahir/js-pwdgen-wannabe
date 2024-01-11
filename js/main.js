@@ -10,3 +10,7 @@ console.log(UserLastName);
 const UserFavColor = prompt("Qual è il tuo colore preferito?");
 console.log(UserFavColor);
 
+// Genero la Password
+const NewPassword = UserFirstName + UserLastName + UserFavColor + 23;
+console.log(NewPassword)
+
